@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shop-order" />
         <module name="shop-user" />
         <module name="shop-common" />
         <module name="shop-product" />
@@ -13,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shop-common" target="1.8" />
+      <module name="shop-order" target="1.8" />
       <module name="shop-product" target="1.8" />
       <module name="shop-user" target="1.8" />
       <module name="springcloud-alibaba" target="1.8" />
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="shop-common" options="-parameters" />
+      <module name="shop-order" options="-parameters" />
       <module name="shop-product" options="-parameters" />
       <module name="shop-user" options="-parameters" />
       <module name="springcloud-alibaba" options="-parameters" />
