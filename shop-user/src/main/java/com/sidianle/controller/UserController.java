@@ -12,7 +12,8 @@ public class UserController {
 
     @RequestMapping("/update")
     public void update(@RequestParam("username") String username) {
-        System.out.println("插入一条用户信息");
+        log.info("update >> 插入一条用户消息 >> username = {}", username);
+        System.out.println("插入一条用户信息:" + username);
     }
 
 }
