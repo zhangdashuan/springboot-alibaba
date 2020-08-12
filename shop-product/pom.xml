@@ -20,8 +20,8 @@
         </dependency>
         <!--nacos客户端-->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId
-            ><artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
     </dependencies>
 </project>
